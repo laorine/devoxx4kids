@@ -1,0 +1,313 @@
+= Atelier 02 - L'application Calc4K
+
+== 1) Installer Android Studio
+Suivre les instructions : https://developer.android.com/studio/install.html
+
+== 2) Créer un projet
+
+=== Etape1: Ouvrir Android Studio
+image::../resources/images/CreateNewProject_01.png[Cration du projet- Etape 1]
+
+=== Etape2: Nommer sa nouvelle application
+image::../resources/images/Calc4kids1.PNG[Cration du projet- Etape 2]
+
+=== Etape3: Choisir sa version de l'API
+image::../resources/images/Calc4kids2.PNG[Cration du projet- Etape 3]
+
+=== Etape4: Choisir son type d'activité
+Pour cet atelier tu peux choisir le EmptyActivity pour créer une application très simple.
+
+image::../resources/images/Calc4kids3.PNG[Cration du projet- Etape 4]
+
+=== Etape5: Créer une activité principale (main activity)
+image::../resources/images/Calc4kids4.PNG[Cration du projet- Etape 5]
+
+=== Etape6: Maintenant tu peux démarrer ta nouvelle application ;)
+image::../resources/images/Calc4kids5.PNG[Cration du projet- Etape 6]
+
+== 3) Créer son téléphone virtuel
+
+=== Etape1: Créer un téléphone
+image::../resources/images/CreateNewVirtualDevice_01.png[Cration d'un téléphone virtuel - Etape 1]
+
+=== Etape2: Choisir un téléphone
+image::../resources/images/CreateNewVirtualDevice_02.png[Cration d'un téléphone virtuel - Etape 2]
+
+=== Etape3: Choisir une version du SDK et la télécharger
+image::../resources/images/CreateNewVirtualDevice_03.png[Cration d'un téléphone virtuel - Etape 3]
+
+=== Etape4: Vérifier la configuration
+image::../resources/images/CreateNewVirtualDevice_04.png[Cration d'un téléphone virtuel - Etape 4]
+
+=== Etape5: Démarrer son nouveau téléphone
+image::../resources/images/CreateNewVirtualDevice_05.png[Cration d'un téléphone virtuel - Etape 5]
+
+=== Etape6: Joue avec :)
+image::../resources/images/CreateNewVirtualDevice_06.png[Cration d'un téléphone virtuel - Etape 6]
+
+== 4) Positions et éléments graphiques
+
+=== Etape1: Deux façons différentes de faire
+
+- En écrivant directement le code
+
+image::../resources/images/Calc4kids6.PNG[Partie texte- Etape 1]
+
+- En utilisant l'outil design
+
+image::../resources/images/Calc4kids7.PNG[Partie design- Etape 1]
+
+=== Etape2: Placer les éléments et utiliser les pourcentages
+
+- EditText
+
+image::../resources/images/Calc4kids8.PNG[Positions(EditText) - Etape 2]
+
+image::../resources/images/Calc4kids9.PNG[Positions(EditText) - Etape 2]
+
+- TextView
+
+image::../resources/images/Calc4kids10.PNG[Positions(TextView) - Etape 2]
+
+- Bouton
+
+image::../resources/images/Calc4kids13.PNG[Positions(Bouton) - Etape 2]
+
+=== Etape3: Texte et Taille
+
+- Taille
+
+image::../resources/images/Calc4kids11.PNG[Taille - Etape 3]
+
+image::../resources/images/Calc4kids12.PNG[Taille - Etape 3]
+
+- Texte
+
+image::../resources/images/Calc4kids14.PNG[Texte - Etape 3]
+
+=== Etape4: Résultat final dans la partie "Text"
+[source,xml]
+----
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.65" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="TextView"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toTopOf="@+id/editText"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.15"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.65" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="Play"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editText" />
+
+</android.support.constraint.ConstraintLayout>
+----
+
+== 5) Styles et Thèmes
+
+=== Etape1: Ouvrir le fichier de style
+image::../resources/images/Calc4kids15.PNG[Styles et Themes - Etape 1]
+
+=== Etape2: Choisir le thème
+image::../resources/images/Calc4kids16.PNG[Styles et Themes - Etape 2]
+
+=== Etape3: Insérer de la couleur dans notre activity_main.xml
+image::../resources/images/Calc4kids17.PNG[Styles et Themes - Etape 3]
+
+== 6) Interagir avec le code
+
+=== Etape1: Récupération de l'élément graphique de saisie de texte
+image::../resources/images/Calc4kids18.PNG[Interagir avec le code - Etape 1]
+[source,kt]
+----
+* var editText: EditText = findViewById(R.id.editText) as EditText
+----
+
+=== Etape2: Déclaration d'un OnKeyListener
+image::../resources/images/Calc4kids19.PNG[Interagir avec le code - Etape 2]
+[source,kt]
+----
+* editText.setOnKeyListener(View.OnKeyListener { v, keyCode, event ->
+              if (keyCode == KeyEvent.KEYCODE_ENTER) {
+                  validate(editText.text.toString())
+                  return@OnKeyListener true
+              }
+              false
+          })
+----
+
+=== Etape3: Déclaration d'une variable globale représentant le résultat
+image::../resources/images/Calc4kids20.PNG[Interagir avec le code - Etape 3]
+[source,kt]
+----
+* var answer = 0
+----
+
+=== Etape4: Fonction créant une question
+image::../resources/images/Calc4kids21.PNG[Interagir avec le code - Etape 4]
+[source,kt]
+----
+* fun genQuestion(): String {
+          val value1 = Random().nextInt(10)
+          val value2 = Random().nextInt(10)
+          answer = value1 + value2
+          return "${value1} + $value2"
+      }
+----
+
+=== Etape5: Affichage de la question
+image::../resources/images/Calc4kids22.PNG[Interagir avec le code - Etape 5]
+[source,kt]
+----
+* var question: TextView = findViewById(R.id.textView3) as TextView
+          question.text = genQuestion()
+----
+
+=== Etape6: Fonction de validation
+image::../resources/images/Calc4kids23.PNG[Interagir avec le code - Etape 6]
+[source,kt]
+----
+* fun validate(value: String) {
+          if (value.equals(answer.toString())) {
+
+              var question: TextView = findViewById(R.id.textView3) as TextView
+              question.text = genQuestion()
+
+              var editText: EditText = findViewById(R.id.editText)
+              editText.setText("")
+          }
+  }
+----
+
+=== Etape7: Ajout de la fonction de validation de la saisie
+image::../resources/images/Calc4kids24.PNG[Interagir avec le code - Etape 7]
+[source,kt]
+----
+* validate(editText.text.toString())
+----
+
+=== Etape8: Et pour les perdants...
+image::../resources/images/Calc4kids25.PNG[Interagir avec le code - Etape 8]
+[source,kt]
+----
+* else if (!value.equals("")){
+              Toast.makeText(this@MainActivity,"Loser!", Toast.LENGTH_SHORT).show()
+          }
+----
+
+=== Etape9: Code final
+[source,kt]
+----
+* package org.devoxx4kids.calc4k
+
+  import android.os.Bundle
+  import android.support.v7.app.AppCompatActivity
+  import android.view.KeyEvent
+  import android.view.View
+  import android.widget.EditText
+  import android.widget.TextView
+  import android.widget.Toast
+  import java.util.*
+
+  class MainActivity : AppCompatActivity() {
+
+      override fun onCreate(savedInstanceState: Bundle?) {
+          super.onCreate(savedInstanceState)
+          setContentView(R.layout.activity_main)
+
+          var editText: EditText = findViewById(R.id.editText) as EditText
+          editText.setOnKeyListener(View.OnKeyListener { v, keyCode, event ->
+              if (keyCode == KeyEvent.KEYCODE_ENTER) {
+                  validate(editText.text.toString())
+                  return@OnKeyListener true
+              }
+              false
+          })
+
+          var question: TextView = findViewById(R.id.textView3) as TextView
+          question.text = genQuestion()
+
+      }
+
+      var answer = 0
+
+      fun genQuestion(): String {
+          val value1 = Random().nextInt(10)
+          val value2 = Random().nextInt(10)
+          answer = value1 + value2
+          return "${value1} + $value2"
+      }
+
+      fun validate(value: String) {
+          if (value.equals(answer.toString())) {
+
+              var question: TextView = findViewById(R.id.textView3) as TextView
+              question.text = genQuestion()
+
+              var editText: EditText = findViewById(R.id.editText)
+              editText.setText("")
+          }
+          else if (!value.equals("")){
+              Toast.makeText(this@MainActivity,"Loser!", Toast.LENGTH_SHORT).show()
+          }
+      }
+  }
+----
+
+=== Voici quelques liens utiles
+- Android developpement:
+* Le site du "Android developer": https://developer.android.com/index.html
+* Cours Android en ligne : https://www.udacity.com/course/android-development-for-beginners--ud837
+* Le code de cet atelier: https://github.com/devoxx4kids/materials/tree/master/workshops/android/workshop_01_ObitalD4K/OrbitalD4K/[Github : Android Workshop 01]
+- Android Studio:
+* Utiliser Android Studio: https://developer.android.com/studio/intro/index.html
+* Android Studio Instalation : https://developer.android.com/studio/install.html
+- Ou poser votre question au twitter de l'auteur
+* Laorine : https://twitter.com/laostreet[@laostreet]
+
+
+
