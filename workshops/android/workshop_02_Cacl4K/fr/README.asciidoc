@@ -5,87 +5,87 @@ Suivre les instructions : https://developer.android.com/studio/install.html
 
 == 2) Créer un projet
 
-=== Etape1: Ouvrir Android Studio
-image::../resources/images/CreateNewProject_01.png[Cration du projet- Etape 1]
+=== Étape 1: Ouvrir Android Studio
+image::../resources/images/CreateNewProject_01.png[Création du projet- Étape 1]
 
-=== Etape2: Nommer sa nouvelle application
-image::../resources/images/Calc4kids1.PNG[Cration du projet- Etape 2]
+=== Étape 2: Nommer sa nouvelle application
+image::../resources/images/Calc4kids1.PNG[Création du projet- Étape 2]
 
-=== Etape3: Choisir sa version de l'API
-image::../resources/images/Calc4kids2.PNG[Cration du projet- Etape 3]
+=== Étape 3: Choisir sa version de l'API
+image::../resources/images/Calc4kids2.PNG[Création du projet- Étape 3]
 
-=== Etape4: Choisir son type d'activité
-Pour cet atelier tu peux choisir le EmptyActivity pour créer une application très simple.
+=== Étape 4: Choisir son type d'activité
+Pour cet atelier tu peux choisir le `EmptyActivity` pour créer une application très simple.
 
-image::../resources/images/Calc4kids3.PNG[Cration du projet- Etape 4]
+image::../resources/images/Calc4kids3.PNG[Création du projet- Étape 4]
 
-=== Etape5: Créer une activité principale (main activity)
-image::../resources/images/Calc4kids4.PNG[Cration du projet- Etape 5]
+=== Étape 5: Créer une activité principale (main activity)
+image::../resources/images/Calc4kids4.PNG[Création du projet- Étape 5]
 
-=== Etape6: Maintenant tu peux démarrer ta nouvelle application ;)
-image::../resources/images/Calc4kids5.PNG[Cration du projet- Etape 6]
+=== Étape 6: Maintenant tu peux démarrer ta nouvelle application ;)
+image::../resources/images/Calc4kids5.PNG[Création du projet- Étape 6]
 
 == 3) Créer son téléphone virtuel
 
-=== Etape1: Créer un téléphone
-image::../resources/images/CreateNewVirtualDevice_01.png[Cration d'un téléphone virtuel - Etape 1]
+=== Étape 1: Créer un téléphone
+image::../resources/images/CreateNewVirtualDevice_01.png[Création d'un téléphone virtuel - Étape 1]
 
-=== Etape2: Choisir un téléphone
-image::../resources/images/CreateNewVirtualDevice_02.png[Cration d'un téléphone virtuel - Etape 2]
+=== Étape 2: Choisir un téléphone
+image::../resources/images/CreateNewVirtualDevice_02.png[Création d'un téléphone virtuel - Étape 2]
 
-=== Etape3: Choisir une version du SDK et la télécharger
-image::../resources/images/CreateNewVirtualDevice_03.png[Cration d'un téléphone virtuel - Etape 3]
+=== Étape 3: Choisir une version du SDK et la télécharger
+image::../resources/images/CreateNewVirtualDevice_03.png[Création d'un téléphone virtuel - Étape 3]
 
-=== Etape4: Vérifier la configuration
-image::../resources/images/CreateNewVirtualDevice_04.png[Cration d'un téléphone virtuel - Etape 4]
+=== Étape 4: Vérifier la configuration
+image::../resources/images/CreateNewVirtualDevice_04.png[Création d'un téléphone virtuel - Étape 4]
 
-=== Etape5: Démarrer son nouveau téléphone
-image::../resources/images/CreateNewVirtualDevice_05.png[Cration d'un téléphone virtuel - Etape 5]
+=== Étape 5: Démarrer son nouveau téléphone
+image::../resources/images/CreateNewVirtualDevice_05.png[Création d'un téléphone virtuel - Étape 5]
 
-=== Etape6: Joue avec :)
-image::../resources/images/CreateNewVirtualDevice_06.png[Cration d'un téléphone virtuel - Etape 6]
+=== Étape 6: Joue avec :)
+image::../resources/images/CreateNewVirtualDevice_06.png[Création d'un téléphone virtuel - Étape 6]
 
 == 4) Positions et éléments graphiques
 
-=== Etape1: Deux façons différentes de faire
+=== Étape 1: Deux façons différentes de faire
 
 - En écrivant directement le code
 
-image::../resources/images/Calc4kids6.PNG[Partie texte- Etape 1]
+image::../resources/images/Calc4kids6.PNG[Partie texte- Étape 1]
 
 - En utilisant l'outil design
 
-image::../resources/images/Calc4kids7.PNG[Partie design- Etape 1]
+image::../resources/images/Calc4kids7.PNG[Partie design- Étape 1]
 
-=== Etape2: Placer les éléments et utiliser les pourcentages
+=== Étape 2: Placer les éléments et utiliser les pourcentages
 
 - EditText
 
-image::../resources/images/Calc4kids8.PNG[Positions(EditText) - Etape 2]
+image::../resources/images/Calc4kids8.PNG[Positions(EditText) - Étape 2]
 
-image::../resources/images/Calc4kids9.PNG[Positions(EditText) - Etape 2]
+image::../resources/images/Calc4kids9.PNG[Positions(EditText) - Étape 2]
 
 - TextView
 
-image::../resources/images/Calc4kids10.PNG[Positions(TextView) - Etape 2]
+image::../resources/images/Calc4kids10.PNG[Positions(TextView) - Étape 2]
 
 - Bouton
 
-image::../resources/images/Calc4kids13.PNG[Positions(Bouton) - Etape 2]
+image::../resources/images/Calc4kids13.PNG[Positions(Bouton) - Étape 2]
 
-=== Etape3: Texte et Taille
+=== Étape 3: Texte et Taille
 
 - Taille
 
-image::../resources/images/Calc4kids11.PNG[Taille - Etape 3]
+image::../resources/images/Calc4kids11.PNG[Taille - Étape 3]
 
-image::../resources/images/Calc4kids12.PNG[Taille - Etape 3]
+image::../resources/images/Calc4kids12.PNG[Taille - Étape 3]
 
 - Texte
 
-image::../resources/images/Calc4kids14.PNG[Texte - Etape 3]
+image::../resources/images/Calc4kids14.PNG[Texte - Étape 3]
 
-=== Etape4: Résultat final dans la partie "Text"
+=== Étape 4: Résultat final dans la partie "Text"
 [source,xml]
 ----
 <?xml version="1.0" encoding="utf-8"?>
@@ -149,26 +149,26 @@ image::../resources/images/Calc4kids14.PNG[Texte - Etape 3]
 
 == 5) Styles et Thèmes
 
-=== Etape1: Ouvrir le fichier de style
-image::../resources/images/Calc4kids15.PNG[Styles et Themes - Etape 1]
+=== Étape 1: Ouvrir le fichier de style
+image::../resources/images/Calc4kids15.PNG[Styles et Themes - Étape 1]
 
-=== Etape2: Choisir le thème
-image::../resources/images/Calc4kids16.PNG[Styles et Themes - Etape 2]
+=== Étape 2: Choisir le thème
+image::../resources/images/Calc4kids16.PNG[Styles et Themes - Étape 2]
 
-=== Etape3: Insérer de la couleur dans notre activity_main.xml
-image::../resources/images/Calc4kids17.PNG[Styles et Themes - Etape 3]
+=== Étape 3: Insérer de la couleur dans notre activity_main.xml
+image::../resources/images/Calc4kids17.PNG[Styles et Themes - Étape 3]
 
 == 6) Interagir avec le code
 
-=== Etape1: Récupération de l'élément graphique de saisie de texte
-image::../resources/images/Calc4kids18.PNG[Interagir avec le code - Etape 1]
+=== Étape 1: Récupération de l'élément graphique de saisie de texte
+image::../resources/images/Calc4kids18.PNG[Interagir avec le code - Étape 1]
 [source,kt]
 ----
 * var editText: EditText = findViewById(R.id.editText) as EditText
 ----
 
-=== Etape2: Déclaration d'un OnKeyListener
-image::../resources/images/Calc4kids19.PNG[Interagir avec le code - Etape 2]
+=== Étape 2: Déclaration d'un OnKeyListener
+image::../resources/images/Calc4kids19.PNG[Interagir avec le code - Étape 2]
 [source,kt]
 ----
 * editText.setOnKeyListener(View.OnKeyListener { v, keyCode, event ->
@@ -180,15 +180,15 @@ image::../resources/images/Calc4kids19.PNG[Interagir avec le code - Etape 2]
           })
 ----
 
-=== Etape3: Déclaration d'une variable globale représentant le résultat
-image::../resources/images/Calc4kids20.PNG[Interagir avec le code - Etape 3]
+=== Étape 3: Déclaration d'une variable globale représentant le résultat
+image::../resources/images/Calc4kids20.PNG[Interagir avec le code - Étape 3]
 [source,kt]
 ----
 * var answer = 0
 ----
 
-=== Etape4: Fonction créant une question
-image::../resources/images/Calc4kids21.PNG[Interagir avec le code - Etape 4]
+=== Étape 4: Fonction créant une question
+image::../resources/images/Calc4kids21.PNG[Interagir avec le code - Étape 4]
 [source,kt]
 ----
 * fun genQuestion(): String {
@@ -199,16 +199,16 @@ image::../resources/images/Calc4kids21.PNG[Interagir avec le code - Etape 4]
       }
 ----
 
-=== Etape5: Affichage de la question
-image::../resources/images/Calc4kids22.PNG[Interagir avec le code - Etape 5]
+=== Étape 5: Affichage de la question
+image::../resources/images/Calc4kids22.PNG[Interagir avec le code - Étape 5]
 [source,kt]
 ----
 * var question: TextView = findViewById(R.id.textView3) as TextView
           question.text = genQuestion()
 ----
 
-=== Etape6: Fonction de validation
-image::../resources/images/Calc4kids23.PNG[Interagir avec le code - Etape 6]
+=== Étape 6: Fonction de validation
+image::../resources/images/Calc4kids23.PNG[Interagir avec le code - Étape 6]
 [source,kt]
 ----
 * fun validate(value: String) {
@@ -223,15 +223,15 @@ image::../resources/images/Calc4kids23.PNG[Interagir avec le code - Etape 6]
   }
 ----
 
-=== Etape7: Ajout de la fonction de validation de la saisie
-image::../resources/images/Calc4kids24.PNG[Interagir avec le code - Etape 7]
+=== Étape 7: Ajout de la fonction de validation de la saisie
+image::../resources/images/Calc4kids24.PNG[Interagir avec le code - Étape 7]
 [source,kt]
 ----
 * validate(editText.text.toString())
 ----
 
-=== Etape8: Et pour les perdants...
-image::../resources/images/Calc4kids25.PNG[Interagir avec le code - Etape 8]
+=== Étape 8: Et pour les perdants...
+image::../resources/images/Calc4kids25.PNG[Interagir avec le code - Étape 8]
 [source,kt]
 ----
 * else if (!value.equals("")){
@@ -239,7 +239,7 @@ image::../resources/images/Calc4kids25.PNG[Interagir avec le code - Etape 8]
           }
 ----
 
-=== Etape9: Code final
+=== Étape 9: Code final
 [source,kt]
 ----
 * package org.devoxx4kids.calc4k
@@ -299,15 +299,13 @@ image::../resources/images/Calc4kids25.PNG[Interagir avec le code - Etape 8]
 ----
 
 === Voici quelques liens utiles
-- Android developpement:
+
+- Android development:
 * Le site du "Android developer": https://developer.android.com/index.html
 * Cours Android en ligne : https://www.udacity.com/course/android-development-for-beginners--ud837
 * Le code de cet atelier: https://github.com/devoxx4kids/materials/tree/master/workshops/android/workshop_01_ObitalD4K/OrbitalD4K/[Github : Android Workshop 01]
 - Android Studio:
 * Utiliser Android Studio: https://developer.android.com/studio/intro/index.html
-* Android Studio Instalation : https://developer.android.com/studio/install.html
-- Ou poser votre question au twitter de l'auteur
+* Android Studio Installation : https://developer.android.com/studio/install.html
+- Où poser votre question au twitter de l'auteur
 * Laorine : https://twitter.com/laostreet[@laostreet]
-
-
-
